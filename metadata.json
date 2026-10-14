@@ -1,0 +1,8 @@
+{
+  "name": "break.exe",
+  "description": "A cute, minimal,student break timer with an adorable dancing blob companion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

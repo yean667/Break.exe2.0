@@ -1,0 +1,247 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #FBF8F3;
+    color: #4A3E3D;
+    font-family: 'Fredoka', 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-doodle {
+  font-family: 'Patrick Hand', 'Gaegu', cursive;
+}
+
+.font-display {
+  font-family: 'Fredoka', 'Nunito', sans-serif;
+}
+
+/* Cute dancing & floating animations */
+@keyframes cuteBounce {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg) scale(1, 1);
+  }
+  25% {
+    transform: translateY(-8px) rotate(-3deg) scale(0.98, 1.03);
+  }
+  50% {
+    transform: translateY(-2px) rotate(1deg) scale(1.02, 0.98);
+  }
+  75% {
+    transform: translateY(-10px) rotate(3deg) scale(0.97, 1.04);
+  }
+}
+
+@keyframes armLeftDance {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-24deg) translateY(-3px);
+  }
+}
+
+@keyframes armRightDance {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(24deg) translateY(-3px);
+  }
+}
+
+@keyframes headphoneBob {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-4px) rotate(2deg);
+  }
+}
+
+@keyframes noteFloat1 {
+  0% {
+    opacity: 0;
+    transform: translateY(10px) translateX(-5px) scale(0.7);
+  }
+  50% {
+    opacity: 0.9;
+    transform: translateY(-15px) translateX(-12px) scale(1.1) rotate(-10deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-35px) translateX(-20px) scale(0.8) rotate(-20deg);
+  }
+}
+
+@keyframes noteFloat2 {
+  0% {
+    opacity: 0;
+    transform: translateY(10px) translateX(5px) scale(0.7);
+  }
+  50% {
+    opacity: 0.9;
+    transform: translateY(-18px) translateX(14px) scale(1.1) rotate(12deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-40px) translateX(22px) scale(0.8) rotate(25deg);
+  }
+}
+
+@keyframes gentleSway {
+  0%, 100% {
+    transform: rotate(-1.5deg) translateY(0);
+  }
+  50% {
+    transform: rotate(1.5deg) translateY(-2px);
+  }
+}
+
+@keyframes wiggleMotion {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.06);
+  }
+}
+
+.animate-cute-dance {
+  animation: cuteBounce 1.2s infinite ease-in-out;
+}
+
+.animate-cute-sway {
+  animation: gentleSway 3s infinite ease-in-out;
+}
+
+.animate-arm-left {
+  animation: armLeftDance 0.6s infinite ease-in-out;
+  transform-origin: 28px 52px;
+}
+
+.animate-arm-right {
+  animation: armRightDance 0.6s infinite ease-in-out;
+  transform-origin: 72px 52px;
+}
+
+.animate-headphone {
+  animation: headphoneBob 1.2s infinite ease-in-out;
+  transform-origin: 50px 30px;
+}
+
+.animate-note-1 {
+  animation: noteFloat1 2.2s infinite linear;
+}
+
+.animate-note-2 {
+  animation: noteFloat2 2.6s infinite linear 0.8s;
+}
+
+.animate-note-3 {
+  animation: noteFloat1 2.4s infinite linear 1.4s;
+}
+
+.animate-wiggle-marks {
+  animation: wiggleMotion 0.8s infinite ease-in-out;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2s infinite ease-in-out;
+}
+
+/* Custom scrollbars for clean look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #EEDFD5;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #DDC8BC;
+}
+
+/* Custom Daisy Cursor Animations */
+@keyframes daisyWiggle {
+  0%, 100% {
+    transform: rotate(0deg) scale(1.15);
+  }
+  25% {
+    transform: rotate(-12deg) scale(1.18);
+  }
+  75% {
+    transform: rotate(12deg) scale(1.18);
+  }
+}
+
+@keyframes daisyBounce {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-daisy-wiggle {
+  animation: daisyWiggle 0.6s infinite ease-in-out;
+}
+
+.animate-daisy-bounce {
+  animation: daisyBounce 0.28s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* Custom Cursor Rules (Desktop Only) */
+@media (hover: hover) and (pointer: fine) {
+  body.custom-cursor-enabled,
+  body.custom-cursor-enabled button,
+  body.custom-cursor-enabled a,
+  body.custom-cursor-enabled div,
+  body.custom-cursor-enabled span,
+  body.custom-cursor-enabled label,
+  body.custom-cursor-enabled svg,
+  body.custom-cursor-enabled p {
+    cursor: none !important;
+  }
+
+  body.custom-cursor-enabled input[type="text"],
+  body.custom-cursor-enabled input[type="email"],
+  body.custom-cursor-enabled input[type="search"],
+  body.custom-cursor-enabled input[type="number"],
+  body.custom-cursor-enabled input[type="password"],
+  body.custom-cursor-enabled textarea,
+  body.custom-cursor-enabled [contenteditable] {
+    cursor: text !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-daisy-wiggle,
+  .animate-daisy-bounce {
+    animation: none !important;
+  }
+}
+
