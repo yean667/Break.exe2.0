@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">break.exe</string>
+    <string name="app_subtitle">because even robots need breaks</string>
+    <string name="start_break">Start %1$dm Break</string>
+    <string name="start_free_break">Start Free Break</string>
+    <string name="end_break">End Break</string>
+    <string name="end_break_overdue">End Break (You survived! 🎓)</string>
+    <string name="silence_alarm">Silence 🌸</string>
+    <string name="alarm_ringing_title">“Break khatam ho gaya!”</string>
+    <string name="alarm_ringing_sub">Tap anywhere on the screen to silence the alarm ✨</string>
+    <string name="welcome_back_toast">finally, welcome back bestie 🌸</string>
+    <string name="ending_soon_notice">break is wrapping up in ~30s... get ready ☕</string>
+    <string name="set_break_length">Set Break Timer Length:</string>
+    <string name="free_form_stopwatch">free-form stopwatch</string>
+    <string name="countdown_timer">timer: %1$d min countdown 🔔</string>
+    <string name="why_take_break">why are you taking a break?</string>
+    <string name="explanation_hint">any explanation? (optional)</string>
+    <string name="no_judgment_hint">no judgment... ~ maybe</string>
+    <string name="todays_damage">today\'s damage</string>
+    <string name="still_better_than_yesterday">~ still better\nthan yesterday (i hope)</string>
+    <string name="total_break_time">total break time</string>
+    <string name="breaks_taken">breaks taken</string>
+    <string name="longest_break">longest break</string>
+    <string name="average_break">average break</string>
+    <string name="break_history">break history</string>
+    <string name="clear_history">Clear all history</string>
+    <string name="empty_history_quote">“no breaks yet… your procrastination lore starts here 🌼”</string>
+    <string name="empty_history_sub">ready when you need water, fresh air, or an academic pause ✨</string>
+    <string name="vibing_temporarily">vibing... (temporarily)</string>
+    <string name="books_wait">your books can wait (again)</string>
+    <string name="companion_sound_setup">✨ companion &amp; sound setup</string>
+    <string name="companion_sound_sub">customize your little desk friend and soothing audio cues</string>
+    <string name="tab_character">🎨 Companion Character</string>
+    <string name="tab_sounds">🎵 Sound Effects</string>
+    <string name="reset_default">Reset Default</string>
+    <string name="save_companion">Save Companion ✨</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.65"
+        android:scaleY="0.65"
+        android:translateX="19"
+        android:translateY="19">
+        <!-- Blob Shadow -->
+        <path
+            android:fillColor="#EADCDA"
+            android:pathData="M35,95 a19,5 0 1,0 38,0 a19,5 0 1,0 -38,0" />
+
+        <!-- Blob Body -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:strokeColor="#38292C"
+            android:strokeWidth="3.2"
+            android:strokeLineJoin="round"
+            android:pathData="M24,78 C16,52 28,32 54,32 C80,32 92,52 84,78 C80,88 68,92 54,92 C40,92 28,88 24,78 Z" />
+
+        <!-- Rosy Blush Cheeks -->
+        <path
+            android:fillColor="#FFAEC0"
+            android:pathData="M37,64 a5,3 0 1,0 10,0 a5,3 0 1,0 -10,0" />
+        <path
+            android:fillColor="#FFAEC0"
+            android:pathData="M61,64 a5,3 0 1,0 10,0 a5,3 0 1,0 -10,0" />
+
+        <!-- Happy Eyes -->
+        <path
+            android:strokeColor="#38292C"
+            android:strokeWidth="2.8"
+            android:strokeLineCap="round"
+            android:pathData="M42,56 C46,51 50,56 50,56" />
+        <path
+            android:strokeColor="#38292C"
+            android:strokeWidth="2.8"
+            android:strokeLineCap="round"
+            android:pathData="M58,56 C62,51 66,56 66,56" />
+
+        <!-- Cute Smile -->
+        <path
+            android:strokeColor="#38292C"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"
+            android:pathData="M51,63 C54,67 57,63 57,63" />
+
+        <!-- Headphone Headband -->
+        <path
+            android:strokeColor="#38292C"
+            android:strokeWidth="4.5"
+            android:strokeLineCap="round"
+            android:pathData="M26,52 C26,22 82,22 82,52" />
+        <path
+            android:strokeColor="#FFAEC0"
+            android:strokeWidth="3.2"
+            android:strokeLineCap="round"
+            android:pathData="M38,27 C48,23 60,23 70,27" />
+
+        <!-- Headphone Left Ear Cup -->
+        <path
+            android:fillColor="#FFAEC0"
+            android:strokeColor="#38292C"
+            android:strokeWidth="2.5"
+            android:pathData="M20,44 h10 v20 h-10 z" />
+
+        <!-- Headphone Right Ear Cup -->
+        <path
+            android:fillColor="#FFAEC0"
+            android:strokeColor="#38292C"
+            android:strokeWidth="2.5"
+            android:pathData="M78,44 h10 v20 h-10 z" />
+
+        <!-- Musical Note -->
+        <path
+            android:fillColor="#E8556D"
+            android:pathData="M84,24 v-10 h8 v4 h-6 v6 a3,3 0 1,1 -2,-2.8 z" />
+    </group>
+</vector>

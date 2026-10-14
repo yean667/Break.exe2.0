@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_pink">#FF6E85</color>
+    <color name="brand_pink_dark">#E8556D</color>
+    <color name="brand_pink_light">#FFF0F2</color>
+    <color name="brand_pink_border">#FFE1E6</color>
+    <color name="brand_cream">#FBF8F4</color>
+    <color name="brand_mocha">#3A2C29</color>
+    <color name="brand_mocha_muted">#7D6B66</color>
+    <color name="brand_card_bg">#FFFDFB</color>
+    <color name="brand_card_border">#ECE4DB</color>
+    <color name="brand_blue_tint">#E9F3FC</color>
+    <color name="brand_blue_border">#D5E7F7</color>
+</resources>
